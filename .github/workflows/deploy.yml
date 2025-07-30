@@ -60,7 +60,7 @@ jobs:
            bin/console eccube:composer:require "ec-cube/productreview42"
            bin/console eccube:composer:require "ec-cube/api42"
            bin/console eccube:composer:require "ec-cube/sitekit42"
-           bin/console eccube:composer:require "ec-cube/amazonpayv2_42"
+           bin/console eccube:composer:require "ec-cube/amazonpayv2_42_bundle"
            bin/console eccube:composer:require "ec-cube/eccubepaymentlite42"
 
       - name: revert to config platform.php
